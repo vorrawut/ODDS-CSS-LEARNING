@@ -10,13 +10,16 @@ body {
 
 .container {
     width: 737px;
-    height: 935px;
+    height: 930px;
     position: relative;
     margin: 0 auto;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 }
 
 .container img {
-    display: inline-block;
+    z-index:-1;
+    display: block;
+    position:relative;
     border-bottom: solid 5px rgb(235, 89, 89);
 }
 
