@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #eee;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1050px;
+    height: 375px;
+    background-color: rgb(245, 245, 245);
+}
+
+.embed-video {
+    display: inline-block;
+}
+
+.embed-video iframe {
+    width: 675px;
+    height: 375px;
+}
+
+.content {
+    display: inline-block;
+    width: 300px;
+}
+
+h1{
+    font-size: 22px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
