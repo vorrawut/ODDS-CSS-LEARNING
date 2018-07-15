@@ -9,9 +9,11 @@ body {
 }
 
 .container {
+    margin:0 auto;
+    background-color: rgb(245, 245, 245);
+    position: relative;
     width: 1050px;
     height: 375px;
-    background-color: rgb(245, 245, 245);
 }
 
 .embed-video {
@@ -25,18 +27,31 @@ body {
 
 .content {
     display: inline-block;
-    width: 300px;
+    position: absolute;
+    text-align: left;
+    width: 375px;
+    height: 375px;
+    line-height: 375px;
 }
 
-h1{
-    font-size: 22px;
+.display-center {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    line-height: 1.5;
+    padding-left: 30px;
+    padding-right: 60px;
+}
+
+h1 {
+    font-size: 18px;
     font-weight: normal;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
-p{
-    font-size: 22px;
-    padding-bottom: 20px;
+p {
+    font-size: 16px;
+    padding-bottom: 30px;
 }
 
 a {
